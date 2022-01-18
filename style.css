@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body img {
+  width: 100%;
+  height: 100vh;
+  float: right;
+}
+
+.container {
+  width: 50%;
+  height: 75vh;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 48%;
+}
+
+.main {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.main h1, p {
+  margin: 10px 0;
+  text-align: right;
+  font-weight: 600;
+}
+
